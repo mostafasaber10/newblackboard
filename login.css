@@ -1,0 +1,196 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Aref Ruqaa', serif;
+font-family: 'Borel', cursive;
+font-family: 'Marhey', cursive;
+font-family: 'Oswald', sans-serif;
+font-family: 'Rubik', sans-serif;
+text-decoration:none ;
+list-style: none;
+direction: rtl;
+}
+
+body{
+    background: #000;
+    /* بعملها لم احب اخلي صورة شفافة */
+    color: white;
+   
+}
+
+header{
+    width: 100%;
+    height: 105vh;
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(arrangement-black-friday-shopping-carts-with-copy-space.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 30px;
+    background: rgba(0,0,0,0.5) ;
+}
+
+.title a{
+    font-family: 'Aref Ruqaa', serif;
+font-family: 'Borel', cursive;
+font-family: 'Marhey', cursive;
+font-family: 'Oswald', sans-serif;
+font-family: 'Readex Pro', sans-serif;
+font-family: 'Rubik', sans-serif;
+color: #E09035;
+font-size: 32px;
+cursor: pointer;
+}
+.title a:hover{
+
+   color: rgb(153, 0, 0);
+}
+
+
+
+
+/*  */
+nav ul li{
+    margin: 45px;
+    margin-right: 20px;
+  display: inline;
+   font-size: 15px;
+}
+a{
+    color:  wheat ;
+    border-bottom: 2px solid transparent;
+}
+.nau a:hover{
+    border-bottom-color:rgb(153, 12, 12);
+}
+
+
+
+/*  */
+.from-box{
+    width: 300px;
+    height: 460px;
+    box-shadow: 5px 5px 15px wheat, -5px -5px 15px wheat;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    padding: 40px 30px 30px 30px ;
+    position: relative;
+    right: 470px;
+    top: 25px;
+}
+
+.hor{
+    text-align: center;
+}
+
+.from-box .loga{
+    width: 105px;
+    margin: auto;
+   
+}
+
+.from-box .name{
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    font-size: 1.4rem;
+    letter-spacing: 1.3px;
+    margin: 20px 0px 30px 0 ;
+    text-align: center;
+}
+.from-box .input1{
+    padding: 5px 10px;
+    background: rgb(255, 255, 255);
+    box-shadow: inset 8px 8px 8px rgb(255, 255, 255), inset -8px -8px 8px rgb(255, 255, 255);
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+.from-box .input1 input{
+    width: 80%;
+    margin-left: 15px;
+    padding: 7px 0px;
+    border: none;
+    outline: none;
+    background: rgb(255, 255, 255);
+    font-size: 18px;
+
+}
+.from-box .input1 .bi{
+    font-size: 25px;
+    color: #555555;
+}
+.from-box button{
+    width: 100%;
+    height: 33px;
+    padding: 5px 0px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    border: none;
+    outline: none;
+    background: rgb(153, 12, 12);
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    font-size: 18px;
+    letter-spacing: 1.3px;
+    cursor: pointer;
+    margin-top: 30px;
+    
+    transform: .3s ease-in-out;
+    -webkit-transform: .3s ease-in-out;
+    -moz-transform: .3s ease-in-out;
+    -ms-transform: .3s ease-in-out;
+    -o-transform: .3s ease-in-out;
+}
+.from-box button:hover{
+    background: rgb(185, 122, 5);
+}
+.from-box h5{
+    width: 100%;
+    text-align: center;
+    margin-top: 15px;
+}
+.from-box h5 a{
+    text-decoration: none;
+    color: rgb(153, 12, 12);
+}
+
+.goo{
+    position: relative;
+    right: 140px;
+    top: 3px;
+    width: 30px;
+    text-align: center;
+}
+.goo:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+.fac{
+    position: relative;
+    right: 50px;
+    bottom: 52px;
+    width: 30px;
+    text-align: center;
+}
+.fac:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
